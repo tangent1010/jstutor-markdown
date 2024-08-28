@@ -1,4 +1,4 @@
-# Javascript tutorial 9 - 事件(Event)
+# Javascript tutorial 9 - 事件 (Event)
 
 ## 什麼是事件
 

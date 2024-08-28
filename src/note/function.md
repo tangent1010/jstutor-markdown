@@ -309,22 +309,3 @@ console.log(result) // 120
 > 通常遞迴的函式跟迴圈的效果是一樣的，但是遞迴的程式碼通常比較簡潔。
 >
 > 但遞迴的效能較差，不適合用在大量資料的處理。
-
-## 非同步函式 (Asynchronous function)
-
-JavaScript 是一種單執行緒的語言，也就是同一時間做一件事，如果遇到耗時的操作，例如讀取檔案、發送網路請求，會造成程式停止執行，直到操作完成才會繼續執行。
-
-為了解決這個問題，可以使用非同步函式(Asynchronous function)，讓程式在等待操作完成時，可以繼續執行其他程式碼。
-
-範例：
-
-```js
-const after1Second = () => {
-  console.log("1 second passed!")
-}
-
-setTimeout(after1Second, 1000, "Hello, world!")
-```
-
-> `setTimeout()` 函式用來設定一段程式碼在多少毫秒後執行。
-
