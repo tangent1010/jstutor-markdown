@@ -40,3 +40,7 @@ DOM（Document Object Model）是用來操作網頁元素的介面。可以通�
 ## [事件](https://hackmd.io/rBHYjkpPRdeqUWbC7jtgOw)
 
 事件是指網頁中的各種操作，例如點擊、滑鼠移動、鍵盤輸入等。可以通過事件來觸發相應的代碼。
+
+## [資料存取](https://hackmd.io/b27FpG5dR2ipR9TdT66b8Q)
+
+在網頁開發中，我們常常需要從後端伺服器讀取資料，或將使用者輸入的資料儲存到後端伺服器中。
